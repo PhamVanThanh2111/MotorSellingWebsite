@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+body span:first-child {
+    padding: 15px 0;
+}
+
+body span:nth-child(2) {
+    padding: 15px 0;
+}
+
+.form_test_ride {
+    width: 60%;
+}
