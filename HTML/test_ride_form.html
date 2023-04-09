@@ -4,18 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/test_ride.css">
+    <link rel="stylesheet" href="../CSS/test_ride_form.css">
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <title>Document</title>
 </head>
 <body>
-    <span>Request a test ride</span>
-    <span>Selection the model you are interested in</span>
-    <form action="#" class="form_test_ride">
+    <form action="#" class="form_test_ride w-50 position-absolute top-0 start-50 translate-middle-x pe-3 pb-3 ps-3 pt-5">
+
+    <div class="logo row g-3 mb-5">
+      <div class="col-md-12">
+        <a href="../HTML/index.html" class=""><img src="../IMG/logo-test-ride.png" alt=""></a>
+      </div>
+    </div>
+    
+    <div class="row g-3 mb-5">
+      <div class="col-md-12">
+        <span class="text-center position-absolute start-50 translate-middle-x">Request a test ride</span>
+      </div>
+    </div>
+
+    <div class="row g-3 mb-5">
+      <div class="col-md-12">
+        <span class="text-center position-absolute start-50 translate-middle-x">Selection the model you are interested in</span>
+      </div>
+    </div>
 
     <div class="row g-3 mb-5">
         <div class="col-md-6">
-          <select id="selectFamilyID" class="form-select" autocomplete="nope" data-required="true" >
+          <select id="selectFamilyID" class="form-select border-top-0 border-end-0 border-start-0" autocomplete="nope" data-required="true" style="
+          ">
             <option selected disabled>FAMILY *</option>
             <option>DesertX</option>
             <option>Hypermotard</option>
@@ -31,7 +48,7 @@
           </select>
         </div>
         <div class="col-md-6">
-            <select id="selectModelID" autocomplete="nope" class="form-select" data-required="true">
+            <select id="selectModelID" autocomplete="nope" class="form-select border-top-0 border-end-0 border-start-0" data-required="true">
                 <option value="-" selected disabled>MODEL *</option>
             </select>
         </div>
@@ -39,16 +56,16 @@
 
     <div class="row g-3 mb-5">
         <div class="col-md-6">
-          <input type="text" class="form-control" id="inputName" placeholder="NAME *" required>
+          <input type="text" class="form-control border-top-0 border-end-0 border-start-0" id="inputName" placeholder="NAME *" required>
         </div>
         <div class="col-md-6">
-            <input type="text" class="form-control" id="inputLastName" placeholder="LASTNAME *" required>
+            <input type="text" class="form-control border-top-0 border-end-0 border-start-0" id="inputLastName" placeholder="LASTNAME *" required>
         </div>
     </div>
 
     <div class="row g-3 mb-5">
         <div class="col-md-12">
-          <select class="form-select" autocomplete="nope" data-id="country" id="countryId" onchange="validateField(id);recalcCountryDependentValues()" size="1" value="" data-required="true">
+          <select class="form-select border-top-0 border-end-0 border-start-0" autocomplete="nope" data-id="country" id="selectcountryId" onchange="validateField(id);recalcCountryDependentValues()" size="1" value="" data-required="true">
             <option disabled="true" id="label" selected="true" value="-">Country *</option>
             <option value="AF">Afghanistan</option>
             <option value="AX">Aland Islands</option>
@@ -307,16 +324,16 @@
 
     <div class="row g-3 mb-5">
       <div class="col-md-6">
-        <input type="text" placeholder="ZIP/POSTAL CODE *" class="form-control" required> 
+        <input type="text" placeholder="ZIP/POSTAL CODE *" class="form-control border-top-0 border-end-0 border-start-0" required> 
       </div>
       <div class="col-md-2">
-        <label for="">VALIDATE ADDRESS</label>
+        <label for="" class="text-danger fw-bold">VALIDATE ADDRESS</label>
       </div>
     </div>
 
     <div class="row g-3 mb-5">
       <div class="col-md-2">
-        <select id="selectmobilePrefixId" class="form-select">
+        <select id="selectmobilePrefixId" class="form-select border-top-0 border-end-0 border-start-0">
           <option value="-" disabled selected>+ -- *</option>
           <option value="null|+290">+290</option>
           <option value="EH|+212">+212</option>
@@ -571,19 +588,59 @@
         </select>
       </div>
       <div class="col-md-4">
-        <input type="tel" class="form-control" id="inputZip" placeholder="CELL PHONE *" required>
+        <input type="tel" class="form-control border-top-0 border-end-0 border-start-0" id="inputZip" placeholder="CELL PHONE *" required>
       </div>
       <div class="col-md-6">
-        <input type="email" placeholder="E-MAIL *" class="form-control" required>
+        <input type="email" placeholder="E-MAIL *" class="form-control border-top-0 border-end-0 border-start-0" required>
       </div>
     </div>
 
     <div class="row g-3 mb-5">
       <div class="col-md-12">
-        <input type="text" class="form-control" placeholder="INSERT THE NAME OF THE LOCATION OR THE DEALER YOU ARE LOOKING FOR *" required>
+        <input type="text" class="form-control border-top-0 border-end-0 border-start-0" placeholder="INSERT THE NAME OF THE LOCATION OR THE DEALER YOU ARE LOOKING FOR *" required>
       </div>
     </div>
 
+    <div class="row g-3 mb-5">
+      <div class="col-md-2">
+        <label for="" class="form-label text-danger">Test Ride Date</label>
+      </div>
+      <div class="col-md-4">
+        <input type="date" name="" id="selectDateID" class="form-control">
+      </div>
+      <div class="col-md-6">
+        <select id="selectTestRideTimeID" class="form-select border-top-0 border-end-0 border-start-0" autocomplete="nope" data-required="true" style="">
+          <option value="" disabled >TEST RIDE TIME</option>
+          <option value="">10:00 - 12:00</option>
+          <option value="">12:00 - 14:00</option>
+          <option value="">14:00 - 16:00</option>
+          <option value="">16:00 - 18:00</option>
+          <option value="">18:00 - 20:00</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row g-3 mb-5">
+      <div class="col-md-8">
+        <label for="" class="form-label text-danger">Would you like to give us more information to help us get to know you better?</label>
+      </div>
+      <div class="col-md-4">
+        <div class="form-check form-check-inline">
+          <input type="radio" name="yes-no" id="yes" class="form-check-input">
+          <label for="yes" class="form-check-label">YES</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="radio" name="yes-no" id="no" class="form-check-input">
+          <label for="no" class="form-check-label">NO</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3 mb-5">
+      <div class="col-md-12">
+        <button type="submit" class="btn-danger text-center position-absolute start-50 translate-middle-x">SEND</button>
+      </div>
+    </div>
     </form>
 </body>
 </html>

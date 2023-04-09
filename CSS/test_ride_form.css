@@ -1,20 +1,179 @@
 body {
-    display: flex;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
+    width: 100%;
+    height: 1200px;
 }
 
-body span:first-child {
-    padding: 15px 0;
+form {
+    margin: 70px 0;
+    border-radius: 20px;
+    border-top: 3px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 3px solid black;
+    box-shadow: 8px 12px #E74646;
 }
 
-body span:nth-child(2) {
-    padding: 15px 0;
+form div div a img {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
 }
 
-.form_test_ride {
-    width: 60%;
+/* form div div select {
+    border: 2px solid #FA9884;
+} */
+
+form div div input[type=text] {
+    border-bottom: 3px solid #E74646;
+    outline: none;
+    color: #FA9884;
+}
+
+form div div input[type=text]:focus {
+    box-shadow: .25rem .3rem #FA9884;
+    border-bottom: 3px solid #E74646;
+    border-top: 1px solid #E74646;
+    color: #FA9884;
+    background-color: #FFF3E2;
+}
+
+form div div input[type=text]::placeholder {
+    color: #FA9884;
+}
+
+form div div input[type=tel] {
+    border-bottom: 3px solid #E74646;
+    outline: none;
+    color: #FA9884;
+}
+
+form div div input[type=tel]:focus {
+    box-shadow: .25rem .3rem #FA9884;
+    border-bottom: 3px solid #E74646;
+    border-top: 1px solid #E74646;
+    color: #FA9884;
+    background-color: #FFF3E2;
+}
+
+form div div input[type=tel]::placeholder {
+    color: #FA9884;
+}
+
+form div div input[type=email] {
+    border-bottom: 3px solid #E74646;
+    outline: none;
+    color: #FA9884;
+}
+
+form div div input[type=email]:focus {
+    box-shadow: .25rem .3rem #FA9884;
+    border-bottom: 3px solid #E74646;
+    border-top: 1px solid #E74646;
+    color: #FA9884;
+    background-color: #FFF3E2;
+}
+
+form div div input[type=email]::placeholder {
+    color: #FA9884;
+}
+
+#selectFamilyID {
+    border-bottom: 3px solid #E74646;
+    color: #FA9884;
+    outline: none;
+}
+
+#selectFamilyID:focus {
+    box-shadow: .25rem .3rem #FA9884;
+    border-bottom: 3px solid #E74646;
+    border-top: 1px solid #E74646;
+    color: #FA9884;
+    background-color: #FFF3E2;
+}
+
+#selectModelID {
+    border-bottom: 3px solid #E74646;
+    color: #FA9884;
+    outline: none;
+}
+
+#selectModelID:focus {
+    box-shadow: .25rem .3rem #FA9884;
+    border-bottom: 3px solid #E74646;
+    border-top: 1px solid #E74646;
+    color: #FA9884;
+    background-color: #FFF3E2;
+}
+
+#selectcountryId {
+    border-bottom: 3px solid #E74646;
+    color: #FA9884;
+    outline: none;
+}
+
+#selectcountryId:focus {
+    box-shadow: .25rem .3rem #FA9884;
+    border-bottom: 3px solid #E74646;
+    border-top: 1px solid #E74646;
+    color: #FA9884;
+    background-color: #FFF3E2;
+}
+
+#selectmobilePrefixId {
+    border-bottom: 3px solid #E74646;
+    color: #FA9884;
+    outline: none;
+}
+
+#selectmobilePrefixId:focus {
+    box-shadow: .25rem .3rem #FA9884;
+    border-bottom: 3px solid #E74646;
+    border-top: 1px solid #E74646;
+    color: #FA9884;
+    background-color: #FFF3E2;
+}
+
+#selectDateID {
+    border-bottom: 3px solid #E74646;
+    color: #FA9884;
+    outline: none;
+}
+
+#selectDateID:focus {
+    box-shadow: .25rem .3rem #FA9884;
+    border-bottom: 3px solid #E74646;
+    border-top: 1px solid #E74646;
+    color: #FA9884;
+    background-color: #FFF3E2;
+}
+
+#selectTestRideTimeID {
+    border-bottom: 3px solid #E74646;
+    color: #FA9884;
+    outline: none;
+}
+
+#selectTestRideTimeID:focus {
+    box-shadow: .25rem .3rem #FA9884;
+    border-bottom: 3px solid #E74646;
+    border-top: 1px solid #E74646;
+    color: #FA9884;
+    background-color: #FFF3E2;
+}
+
+.form-check-input:checked {
+    background-color: #FA9884 !important;
+    border: 2px solid #E74646 !important;
+}
+
+.form-check-input:checked:focus {
+    box-shadow: 0 0 0 .25rem #FFF3E2;
+}
+
+form div div button {
+    width: 100px;
+    height: 40px;
 }
