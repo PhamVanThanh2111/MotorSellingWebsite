@@ -176,4 +176,5 @@ form div div input[type=email]::placeholder {
 form div div button {
     width: 100px;
     height: 40px;
+    border-radius: 7px;
 }
