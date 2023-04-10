@@ -7,6 +7,14 @@
     <title>Cửa hàng xe máy</title>
     <link rel="stylesheet" href="../CSS/reset.css" />
     <link rel="stylesheet" href="../CSS/fonts/stylesheet.css" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="../CSS/styles.css" />
   </head>
   <body>
@@ -18,9 +26,14 @@
               <div class="left">THE LAND OF JOY</div>
               <div class="right">
                 <div class="country">
-                  <a href="#!">INTERNATIONAL WEBSITE</a>
+                  <a href="#!" class="link_head"
+                    ><span>INTERNATIONAL WEBSITE</span
+                    ><i class="fa-solid fa-sort-down"></i>
+                  </a>
                 </div>
-                <span class="label">MYDUCATI</span>
+                <a href="#!" class="link_head"
+                  ><span>DUCATI</span><i class="fa-solid fa-sort-down"></i>
+                </a>
               </div>
             </nav>
           </div>
@@ -32,12 +45,27 @@
             <a href="#!" class="btn">DISCOVER MORE</a>
           </div>
         </section>
-        <img
-          src="../IMG/header-2.jpg"
-          alt="duacati"
-          class="head-img"
-        />
+        <img src="../IMG/header-2.jpg" alt="duacati" class="head-img" />
       </header>
+      <div class="banner body">
+        <a href="#!">
+          <div class="wrapper">
+            <div class="text">
+              <span class="category">Multistrada</span>
+              <h2 class="title">20 years of Multistrada</h2>
+              <span class="desc"
+                >After 20 years and more than 100,000 bikes sold, still carving
+                new roads with everything riders desire to make every adventure
+                more exciting, more enjoyable and more Ducati than ever.</span
+              >
+              <span class="link"><span>Multistrada dynasty</span></span>
+            </div>
+            <picture class="image"
+              ><img class="lazyloaded" src="../IMG/banner.jpg" alt=""
+            /></picture>
+          </div>
+        </a>
+      </div>
     </main>
   </body>
 </html>
