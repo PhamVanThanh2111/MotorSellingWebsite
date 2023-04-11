@@ -84,3 +84,23 @@
     color: #fafafa;
     box-shadow: 0 0 2rem .5rem grey;
 }
+
+.overview-btn {
+    background-color: #0f0f0f;
+    color: #fafafa;
+    border-radius: 25px;
+}
+
+.overview-btn:hover {
+    color: #fafafa;
+}
+
+.specs-btn {
+    background-color: #fafafa;
+    color: #0f0f0f;
+    border-radius: 25px;
+}
+
+.specs-btn:hover {
+    color: #0f0f0f;
+}
