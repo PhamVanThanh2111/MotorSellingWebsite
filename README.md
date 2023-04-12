@@ -1,5 +1,3 @@
 # BanXeMay
 
-Code đi Kha ơi =))
-
-sử dụng framework bootstrap
+sử dụng framework bootstrap để thi cuối kỳ
