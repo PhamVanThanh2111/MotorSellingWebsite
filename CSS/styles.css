@@ -29,6 +29,7 @@ a {
 .btn {
   padding: 20px 35px;
   background: red;
+  border-radius: 2px;
 }
 .btn:hover {
   opacity: 0.9;
@@ -244,6 +245,7 @@ a {
   margin-left: 10px;
   padding: 0 22px 30px;
   background-color: #fafafa;
+  background: transparent;
 }
 .product-model .model {
   width: 100%;
@@ -307,4 +309,58 @@ a {
   font-size: 1.8rem;
   letter-spacing: 0.8px;
   line-height: 1.2;
+}
+/* newsletter */
+.newsletter {
+  margin-top: 60px;
+}
+.newsletter .content {
+  padding: 100px 0;
+  text-align: center;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+.newsletter .sign .title {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.newsletter .sign .privacy {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color: #666;
+}
+.newsletter .sign .sign-up {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #666;
+  letter-spacing: 1px;
+}
+.newsletter .sign .y-mail {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+.newsletter .sign .input-mail {
+  width: 450px;
+  height: 60px;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  text-transform: uppercase;
+}
+.newsletter .sign .btn {
+  width: 190px;
+  height: 60px;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
 }
