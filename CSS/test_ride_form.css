@@ -2,11 +2,9 @@
 body {
     width: 100%;
     height: 1200px;
-
     font-family: "OpenSans";
     font-family: "OpenSans" , sans-serif;
 }
-
 form {
     margin: 70px 0;
     border-radius: 20px;
@@ -16,7 +14,6 @@ form {
     border-left: 3px solid black;
     box-shadow: 8px 12px #E74646;
 }
-
 form div div a img {
     width: 75px;
     height: 75px;
@@ -25,178 +22,151 @@ form div div a img {
     transform: translateX(-50%);
     top: 15px;
 }
-
 /* form div div select {
     border: 2px solid #FA9884;
 } */
-
 form div div input[type=text] {
     border-bottom: 3px solid #E74646;
     outline: none;
     color: #FA9884;
 }
-
 form div div input[type=text]:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 form div div input[type=text]::placeholder {
     color: #FA9884;
 }
-
 form div div input[type=tel] {
     border-bottom: 3px solid #E74646;
     outline: none;
     color: #FA9884;
 }
-
 form div div input[type=tel]:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 form div div input[type=tel]::placeholder {
     color: #FA9884;
 }
-
 form div div input[type=email] {
     border-bottom: 3px solid #E74646;
     outline: none;
     color: #FA9884;
 }
-
 form div div input[type=email]:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 form div div input[type=email]::placeholder {
     color: #FA9884;
 }
-
 form div div input[type=password] {
     border-bottom: 3px solid #E74646;
     outline: none;
     color: #FA9884;
 }
-
 form div div input[type=password]:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 form div div input[type=password]::placeholder {
     color: #FA9884;
 }
-
 #selectFamilyID {
     border-bottom: 3px solid #E74646;
     color: #FA9884;
     outline: none;
 }
-
 #selectFamilyID:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 #selectModelID {
     border-bottom: 3px solid #E74646;
     color: #FA9884;
     outline: none;
 }
-
 #selectModelID:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 #selectcountryId {
     border-bottom: 3px solid #E74646;
     color: #FA9884;
     outline: none;
 }
-
 #selectcountryId:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 #selectmobilePrefixId {
     border-bottom: 3px solid #E74646;
     color: #FA9884;
     outline: none;
 }
-
 #selectmobilePrefixId:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 #selectDateID {
     border-bottom: 3px solid #E74646;
     color: #FA9884;
     outline: none;
 }
-
 #selectDateID:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 #selectTestRideTimeID {
     border-bottom: 3px solid #E74646;
     color: #FA9884;
     outline: none;
 }
-
 #selectTestRideTimeID:focus {
     box-shadow: .25rem .3rem #FA9884;
     border-bottom: 3px solid #E74646;
     border-top: 1px solid #E74646;
     color: #FA9884;
-    background-color: #FFF3E2;
 }
-
 .form-check-input:checked {
     background-color: #FA9884 !important;
     border: 2px solid #E74646 !important;
 }
-
 .form-check-input:checked:focus {
     box-shadow: 0 0 0 .25rem #FFF3E2;
 }
-
 form div div button {
     width: 100px;
     height: 40px;
     border-radius: 7px;
+}
+form div div span a {
+    color: #E74646;
+}
+
+form div div span a:visited {
+    color: #E74646;
+}
+
+form div div span a:focus {
+    color: #E74646;
 }
