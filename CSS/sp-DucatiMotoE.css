@@ -369,3 +369,86 @@
 .layout-9 div div div input[type=email]::placeholder {
     color: #FA9884;
 }
+
+.layout-10 {
+    position: relative;
+    height: 530px;
+}
+
+.link, .layout-10 .footer .content .flex .box-logo .second-logo, .layout-10 .footer .content .flex .box-language .country {
+    text-decoration: none;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-bottom: 120px;
+  background: #0f0f0f;
+  color: #666;
+  text-align: center;
+}
+.footer .content {
+  padding: 60px 30px 0;
+}
+.footer .logo img {
+  width: auto;
+  height: 46px;
+}
+.footer .links-wrapper {
+  margin-top: 45px;
+  width: 100%;
+}
+.footer .links-wrapper .links .item {
+  display: inline-block;
+  white-space: nowrap;
+  list-style: none;
+  margin: 0 30px;
+}
+.footer .links-wrapper .link {
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #666;
+}
+.footer .copyright {
+  margin: 45px 10px 0px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.footer .flex {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .box-logo {
+  display: flex;
+  gap: 50px;
+}
+.footer .box-logo img {
+  margin-bottom: 15px;
+  width: 102px;
+  height: 37px;
+}
+.footer .box-logo .second-logo {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #666;
+}
+.footer .box-socials {
+  display: flex;
+}
+.footer .box-socials .item {
+  margin: 10px;
+}
+.footer .box-socials .icon {
+  padding: 10px;
+}
+.footer .box-language .country {
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #666;
+}
