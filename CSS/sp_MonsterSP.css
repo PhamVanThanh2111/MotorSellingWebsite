@@ -169,6 +169,7 @@ a {
 
 .layout-1 {
   height: 380px;
+  position: relative;
 }
 
 .d-tabs-modules {
@@ -243,6 +244,11 @@ a {
 .layout-2 {
   height: 800px;
   position: relative;
+}
+
+.layout-2 .bg {
+  position: absolute;
+  top: 200px;
 }
 
 .layout-2 .bg .title {
