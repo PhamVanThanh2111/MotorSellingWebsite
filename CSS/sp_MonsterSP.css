@@ -247,8 +247,7 @@ a {
 }
 
 .layout-2 .bg {
-  position: absolute;
-  top: 200px;
+  padding: 20px 120px;
 }
 
 .layout-2 .bg .title {
@@ -260,7 +259,7 @@ a {
   font-size: 35px;
 }
 
-.layout-2 .sp-bg {
+.layout-2 .bg .sp-bg {
   position: relative;
   width: 100%;
 }
