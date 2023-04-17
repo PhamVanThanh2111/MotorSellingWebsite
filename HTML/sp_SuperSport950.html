@@ -289,6 +289,18 @@
                 </div>
             </footer>
         </div>
+        <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+        <script>
+          $(Document).ready(function () {
+            $(window).scroll(function () {
+              if ($(this).scrollTop()) {
+                $("div.top-wrap").addClass("sticky");
+              } else {
+                $("div.top-wrap").removeClass("sticky");
+              }
+            });
+          });
+        </script>
     </div>
 </body>
 </html>

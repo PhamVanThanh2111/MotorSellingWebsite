@@ -25,13 +25,22 @@ a {
   z-index: 80;
   width: 100vw;
   max-width: calc(100% - 58px);
-  height: 75px;
+  height: 110px;
+  box-shadow: 0px 0px 5px 0px #666;
   top: 70px;
   display: flex;
   align-items: center;
   padding: 0 20px;
   margin: 0 30px;
   background: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.sticky {
+  background: #fafafa;
+  height: 65px;
+}
+.sticky .wrap {
+  opacity: 0;
 }
 .top-wrap .hamburger .line::after {
   content: "";
@@ -168,8 +177,7 @@ a {
 /* LAYOUT 1 */
 
 .layout-1 {
-  height: 380px;
-  position: relative;
+  height: 490px;
 }
 
 .d-tabs-modules {
@@ -229,25 +237,22 @@ a {
   line-height: 1.5;
   top: 15px;
   color: #0f0f0f;
-  padding: 10px 295px;
+  padding: 10px 150px 10px 150px;
 }
 
 .d-editor-text .content {
   position: absolute;
   top: 80px;
-  padding: 10px 400px;
+  padding: 10px 250px 10px 250px;
   color: #0f0f0f;
+  text-align: justify;
 }
 
 /* LAYOUT 2 */
 
 .layout-2 {
-  height: 800px;
+  height: 880px;
   position: relative;
-}
-
-.layout-2 .bg {
-  padding: 20px 120px;
 }
 
 .layout-2 .bg .title {
@@ -259,7 +264,7 @@ a {
   font-size: 35px;
 }
 
-.layout-2 .bg .sp-bg {
+.layout-2 .sp-bg {
   position: relative;
   width: 100%;
 }
@@ -291,7 +296,7 @@ a {
 /* LAYOUT 3 */
 
 .layout-3 {
-  height: 400px;
+  height: 300px;
 }
 
 .layout-4 {
@@ -322,7 +327,7 @@ a {
 .layout-7 {
   margin-top: 60px;
   padding: 20px 50px;
-  height: 500px;
+  height: 320px;
 }
 
 .layout-7 .wrapper {
