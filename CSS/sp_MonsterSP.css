@@ -169,6 +169,7 @@ a {
 
 .layout-1 {
   height: 380px;
+  position: relative;
 }
 
 .d-tabs-modules {
@@ -245,6 +246,10 @@ a {
   position: relative;
 }
 
+.layout-2 .bg {
+  padding: 20px 120px;
+}
+
 .layout-2 .bg .title {
   position: absolute;
   left: 50%;
@@ -254,7 +259,7 @@ a {
   font-size: 35px;
 }
 
-.layout-2 .sp-bg {
+.layout-2 .bg .sp-bg {
   position: relative;
   width: 100%;
 }

@@ -154,10 +154,16 @@ form div div input[type=password]::placeholder {
 .form-check-input:checked:focus {
     box-shadow: 0 0 0 .25rem #FFF3E2;
 }
+.form_test_ride {
+    min-width: 380px;
+}
 form div div button {
     width: 100px;
     height: 40px;
     border-radius: 7px;
+}
+form div div span {
+    white-space: nowrap;
 }
 form div div span a {
     color: #E74646;
