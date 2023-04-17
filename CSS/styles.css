@@ -138,13 +138,22 @@ a {
   z-index: 80;
   width: 100vw;
   max-width: calc(100% - 58px);
-  height: 75px;
+  height: 110px;
+  box-shadow: 0px 0px 5px 0px #666;
   top: 70px;
   display: flex;
   align-items: center;
   padding: 0 20px;
   margin: 0 30px;
   background: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.sticky {
+  background: #fafafa;
+  height: 65px;
+}
+.sticky .wrap {
+  opacity: 0;
 }
 .top-wrap .hamburger .line::after {
   content: "";
