@@ -57,3 +57,8 @@
     width: 1050px;
     height: 650px;
 }
+
+.big-title {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
