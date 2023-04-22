@@ -331,6 +331,7 @@ a {
 
 .layout-7 .wrapper {
   display: flex;
+  cursor: pointer;
   background: #fff;
   max-width: 1330px;
   flex-wrap: nowrap;
@@ -403,12 +404,14 @@ a {
 }
 
 .layout-8 {
-    position: relative;
-    height: 530px;
+  position: relative;
+  height: 530px;
 }
 
-.link, .layout-8 .footer .content .flex .box-logo .second-logo, .layout-8 .footer .content .flex .box-language .country {
-    text-decoration: none;
+.link,
+.layout-8 .footer .content .flex .box-logo .second-logo,
+.layout-8 .footer .content .flex .box-language .country {
+  text-decoration: none;
 }
 
 .footer {

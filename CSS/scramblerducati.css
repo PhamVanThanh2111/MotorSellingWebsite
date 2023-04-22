@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.15;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "OpenSans";
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  color: #0f0f0f;
+}
+
+/* common */
+a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+.body {
+  width: 1330px;
+  max-width: calc(100% - 18px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  padding: 20px 35px;
+  background: #ffc602;
+  border-radius: 2px;
+}
+/* //header */
+header {
+  position: relative;
+}
+header .body .content {
+  position: relative;
+}
+.img_head {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+header .body .wrap {
+  position: absolute;
+  width: 295px;
+  z-index: 1;
+  top: 388px;
+}
+header .body .wrap .title {
+  position: relative;
+  font-weight: bold;
+  font-size: 5.2rem;
+  color: #fff;
+}
+header .body .wrap .title::after {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  background: #ffc602;
+  top: 120px;
+  left: 0;
+  width: 230px;
+  height: 5px;
+}
+header .body .wrap .desc {
+  margin-top: 57px;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #fff;
+}
+header .body .wrap .btn {
+  margin-top: 28px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.2rem;
+  width: 260px;
+  color: #000;
+
+  padding: 15px 20px 15px 35p;
+}
+header .body .wrap .btn span {
+  white-space: nowrap;
+}
