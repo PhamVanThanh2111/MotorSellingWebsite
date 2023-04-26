@@ -5,7 +5,7 @@
 }
 
 .layout-1 {
-  height: 330px;
+  height: 360px;
 }
 
 /* LAYOUT 2 */
@@ -53,7 +53,7 @@
 }
 
 .layout-4 {
-  height: 630px;
+  height: 600px;
 }
 
 .layout-4 .body {
@@ -83,51 +83,100 @@
 /* layout 5 */
 
 .layout-5 {
-  height: 630px;
-}
-
-.layout-5 .body {
-  position: relative;
-  display: flex;
-  width: 100%;
-  justify-items: space-between;
-  transition: transform 0.3s ease-out;
-  padding: 10px 100px;
-}
-
-.layout-5 .body div {
-  width: 100%;
-}
-
-.layout-5 .body div:first-child {
-    margin-right: 35px;
-}
-
-.layout-5 .body div:last-child {
-    margin-left: 35px;
-}
-
-.layout-5 .body div img {
-  width: 400px;
-  height: auto;
-  z-index: 0;
-  border-radius: 5px;
-}
-
-.layout-5 div div:hover {
-    transform: scale(102%);
+  height: 330px;
 }
 
 .layout-6 {
+  margin-top: 60px;
+  padding: 20px 50px;
+  height: 320px;
+}
+
+.layout-6 .wrapper {
+  display: flex;
+  background: #fff;
+  max-width: 1330px;
+  flex-wrap: nowrap;
+  border-left: 4px solid #c00;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  /* height: 300px; */
+}
+.layout-6 .wrapper:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+.layout-6 .wrapper .text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 34px;
+  position: relative;
+}
+.layout-6 .wrapper .text .category {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #666;
+  font-size: 1.4rem;
+}
+.layout-6 .wrapper .text .title {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.4;
+}
+.layout-6 .wrapper .text .desc {
+  font-weight: 400px;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+.layout-6 .wrapper .text .link {
+  display: flex;
+  margin-top: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #c00;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.layout-6 .wrapper .image {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.layout-6 .wrapper .image .lazyloaded {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/* layout 7 */
+
+.layout-7 {
   height: 800px;
   position: relative;
 }
 
-.layout-6 .d-video-full {
+.layout-7 .d-video-full {
   padding-bottom: 60px;
 }
 
-.layout-6 .d-video-full > .video-source {
+.layout-7 .d-video-full>.video-source {
   width: 1330px;
   margin: 0 auto;
   background-color: #0f0f0f;
@@ -136,14 +185,14 @@
   border-radius: 5px;
 }
 
-.layout-6 .d-video-full > .video-source::before {
-  content: "";
+.layout-7 .d-video-full>.video-source::before {
+  content: '';
   display: block;
   height: 0;
   padding-bottom: 56%;
 }
 
-.layout-6 .d-video-full > .video-source > .video-source-element {
+.layout-7 .d-video-full>.video-source>.video-source-element {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -154,55 +203,41 @@
   align-items: center;
 }
 
-.layout-6 .d-video-full > .video-source > .video-source-element {
+.layout-7 .d-video-full>.video-source>.video-source-element {
   width: 100%;
   height: 100%;
   display: block;
-}
-
-.layout-7 {
-  height: 250px;
-  position: relative;
 }
 
 .layout-8 {
-  height: 800px;
+  height: 700px;
   position: relative;
 }
 
-.layout-8 .d-video-full {
-  padding-bottom: 60px;
+.layout-8 .bg {
+  padding: 0 60px;
 }
 
-.layout-8 .d-video-full > .video-source {
-  width: 1330px;
-  margin: 0 auto;
-  background-color: transparent;
+.layout-8 div .content .d-editor-text .body {
   position: relative;
-  overflow: hidden;
-  border-radius: 5px;
 }
 
-.layout-8 .d-video-full > .video-source::before {
-  content: "";
-  display: block;
-  height: 0;
-  padding-bottom: 56%;
-}
-
-.layout-8 .d-video-full > .video-source > .video-source-element {
+.layout-8 div .content .d-editor-text .body .title {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  left: -130px;
+  top: -500px;
+}
+
+.layout-8 div .content .d-editor-text .body .content {
+  position: absolute;
+  left: -235px;
+  top: -430px;
+  text-align: justify;
+  z-index: 1;
 }
 
 .layout-9 {
-  height: 200px;
+  height: 220px;
 }
 
 .layout-9 div div div input[type="email"] {

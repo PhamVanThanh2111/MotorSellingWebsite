@@ -135,6 +135,10 @@ a {
 
 .body {
   position: relative;
+  width: 1330px;
+  max-width: calc(100% - 28px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -346,12 +350,14 @@ a {
 /* form subscribe */
 
 #form-subscribe-input {
-  height: 33px;
+  height: 50px;
+  line-height: 0px;
 }
 
 #form-subscribe-btn {
-  height: 33px;
+  height: 50px;
   font-size: 15px;
+  line-height: 0px;
 }
 
 .d-banner-full .body picture, .d-banner-full .body img {
@@ -406,4 +412,12 @@ a {
   z-index: 0;
   user-select: none;
   cursor: pointer;
+}
+.btn {
+  padding: 20px 35px;
+  background: red;
+  border-radius: 2px;
+}
+.btn:hover {
+  opacity: 0.9;
 }
