@@ -39,6 +39,31 @@ header {
   height: 100vh;
   color: #fafafa;
 }
+header .content .header {
+  top: 0;
+  height: 100px;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+header .content .header img {
+  width: 120px;
+  object-fit: cover;
+  filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(0%)
+    hue-rotate(337deg) brightness(105%) contrast(96%);
+}
+header .content .header i {
+  color: #fafafa;
+}
+header .content .header i:hover {
+  color: #ffc602;
+}
+header .content .header .contact {
+  display: flex;
+  gap: 20px;
+}
 header .content {
   position: relative;
   width: 100%;
@@ -279,4 +304,118 @@ header .body .wrap .btn {
   font-weight: 700;
   font-size: 1.8rem;
   color: #ffc602;
+}
+.loopNewsSlidesContainer .see {
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+}
+.loopNewsSlidesContainer .see .btn {
+  display: flex;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+/* banner */
+.banner {
+  margin-top: 70px;
+  width: 100%;
+  height: 500px;
+  background: #ffc602;
+  display: flex;
+  align-items: center;
+}
+.banner .body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .body .img_ban {
+  width: 610px;
+  height: 605px;
+}
+.banner .body .img_ban img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner .body .content {
+  width: 470px;
+}
+.banner .body .content .title {
+  font-weight: 800;
+  font-size: 3.8rem;
+}
+.banner .body .content .desc {
+  font-weight: 200;
+  margin-top: 20px;
+  font-size: 1.8rem;
+}
+.banner .body .content .btn_discover {
+  margin-top: 20px;
+
+  display: flex;
+}
+.banner .body .content .btn {
+  background: #fafafa;
+  display: flex;
+  font-size: 1.2rem;
+  gap: 15px;
+}
+.foot {
+  margin-top: 100px;
+  height: 500px;
+  background: #0f0f0f;
+}
+
+.foot .content {
+  position: absolute;
+  margin-top: 50px;
+  width: 100%;
+}
+.foot .content .logo_foot {
+  width: 100%;
+  text-align: center;
+}
+.foot .content .logo_foot img {
+  width: 140px;
+  filter: brightness(0) saturate(100%) invert(78%) sepia(88%) saturate(3022%)
+    hue-rotate(357deg) brightness(102%) contrast(105%);
+}
+.foot .content .cookie ul {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  gap: 180px;
+  justify-content: center;
+}
+.foot .content .cookie a {
+  font-size: 1.8rem;
+  color: #666;
+}
+.foot .content .cookie a:hover {
+  color: #ffc602;
+}
+.foot .content .vat {
+  margin-top: 60px;
+  width: 1330px;
+  text-align: center;
+}
+
+.foot .content .vat p {
+  display: inline-block;
+  color: #666;
+  font-size: 1.8rem;
+  width: 900px;
+}
+.foot .content .contact {
+  margin-top: 70px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.foot .content .contact .item i {
+  color: #ffc602;
+}
+.foot .content .contact .item i:hover {
+  color: #fafafa;
 }
