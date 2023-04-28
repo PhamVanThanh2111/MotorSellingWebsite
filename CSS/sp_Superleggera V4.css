@@ -47,40 +47,16 @@
   height: 600px;
 }
 
-.layout-4 .body {
-  position: relative;
-  display: flex;
-  width: 100%;
-  justify-items: space-between;
-  transition: transform 0.3s ease-out;
-}
-
-.layout-4 .body div {
-  width: 100%;
-}
-
-.layout-4 .body div img {
-  width: 99.6%;
-  height: auto;
-  z-index: 0;
-  border-radius: 5px;
-}
-
-.layout-4 .body div img:hover {
-  transform: scale(110%);
-  border-radius: 25px;
-}
-
 /* layout 5 */
 
 .layout-5 {
-  height: 330px;
+  height: 310px;
 }
 
 .layout-6 {
   margin-top: 60px;
   padding: 20px 50px;
-  height: 320px;
+  height: 400px;
 }
 
 .layout-6 .wrapper {
@@ -159,7 +135,7 @@
 /* layout 7 */
 
 .layout-7 {
-  height: 800px;
+  height: 850px;
   position: relative;
 }
 

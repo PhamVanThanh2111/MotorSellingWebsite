@@ -5,13 +5,13 @@
 }
 
 .layout-1 {
-    height: 380px;
+    height: 430px;
 }
 
 /* LAYOUT 2 */
 
 .layout-2 {
-    height: 640px;
+    height: 650px;
     position: relative;
     border-top: 0px;
 }
@@ -57,7 +57,7 @@
 /* LAYOUT 3 */
 
 .layout-3 {
-    height: 250px;
+    height: 280px;
     position: relative;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .layout-5 {
-    height: 290px;
+    height: 310px;
 }
 
 .layout-6 {
@@ -133,7 +133,7 @@
 }
 
 .layout-7 {
-    height: 250px;
+    height: 280px;
     position: relative;
 }
 

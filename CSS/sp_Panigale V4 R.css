@@ -4,8 +4,6 @@
   height: 100%;
 }
 
-
-
 /* .d-hero-video > .body {
   padding: 80px 30px 79px;
   z-index: 1;
@@ -39,7 +37,7 @@
 /* LAYOUT 1 */
 
 .layout-1 {
-  height: 360px;
+  height: 390px;
 }
 
 /* LAYOUT 2 */
@@ -175,7 +173,7 @@
 }
 
 .layout-5 {
-  height: 235px;
+  height: 270px;
 }
 
 /*layout 6*/
@@ -215,7 +213,6 @@
   padding: 10px 0px 10px 350px;
   color: #0f0f0f;
 }
-
 
 .layout-7 {
   margin-top: 60px;
@@ -333,4 +330,3 @@
 .layout-9 .footer .content .flex .box-language .country {
   text-decoration: none;
 }
-

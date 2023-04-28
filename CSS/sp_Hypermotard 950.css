@@ -4,8 +4,12 @@
   height: 100%;
 }
 
+.layout-1 {
+  height: 530px;
+}
+
 .layout-2 {
-  height: 890px;
+  height: 850px;
   position: relative;
   border-top: 0px;
 }
@@ -99,7 +103,7 @@
 }
 
 .layout-5 {
-  height: 200px;
+  height: 260px;
 }
 
 .layout-6 {
@@ -145,7 +149,7 @@
 }
 
 .layout-7 {
-  height: 330px;
+  height: 400px;
   position: relative;
 }
 

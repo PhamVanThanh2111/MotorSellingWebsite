@@ -361,7 +361,8 @@ a {
   line-height: 0px;
 }
 
-.d-banner-full .body picture, .d-banner-full .body img {
+.d-banner-full .body picture,
+.d-banner-full .body img {
   display: block;
   width: 100%;
   position: absolute;
@@ -377,7 +378,7 @@ a {
   width: 100%;
 }
 
-.d-banner-full.body>.content {
+.d-banner-full.body > .content {
   width: 30%;
   position: absolute;
   top: 700px;
@@ -429,4 +430,28 @@ a {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
+}
+
+.d-six-img .body {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-items: space-between;
+  transition: transform 0.3s ease-out;
+}
+
+.d-six-img .body div {
+  width: 100%;
+}
+
+.d-six-img .body div img {
+  width: 99.6%;
+  height: auto;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.d-six-img .body div img:hover {
+  transform: scale(110%);
+  border-radius: 25px;
 }
