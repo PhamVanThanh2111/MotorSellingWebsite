@@ -144,7 +144,7 @@ a {
 .title {
   position: absolute;
   color: #fafafa;
-  top: -200px;
+  top: -160px;
   left: 7%;
   letter-spacing: 2px;
   white-space: nowrap;
@@ -185,7 +185,7 @@ a {
 .subtitle {
   position: absolute;
   color: #fafafa;
-  top: -230px;
+  top: -190px;
   left: 7%;
 }
 
@@ -262,6 +262,7 @@ a {
   font-size: 35px;
   line-height: 1.5;
   top: 15px;
+  left: 100px;
   color: #0f0f0f;
   padding: 10px 295px;
 }
@@ -420,4 +421,12 @@ a {
 }
 .btn:hover {
   opacity: 0.9;
+}
+.d-video-full > .video-source {
+  width: 1330px;
+  margin: 0 auto;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
 }
