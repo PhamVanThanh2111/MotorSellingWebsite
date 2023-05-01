@@ -431,7 +431,9 @@ header .body .wrap .btn {
   height: 500px;
   background: #0f0f0f;
 }
-
+.foot .body {
+  position: relative;
+}
 .foot .content {
   position: absolute;
   margin-top: 50px;
