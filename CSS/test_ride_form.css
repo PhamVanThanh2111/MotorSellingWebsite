@@ -1,10 +1,4 @@
 
-body {
-    width: 100%;
-    height: 1200px;
-    font-family: "OpenSans";
-    font-family: "OpenSans" , sans-serif;
-}
 form {
     margin: 70px 0;
     border-radius: 20px;
@@ -175,4 +169,8 @@ form div div span a:visited {
 
 form div div span a:focus {
     color: #E74646;
+}
+.section {
+    height: 600px;
+    position: relative;
 }
